@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
+
 
 # In[1]:
 
@@ -43,18 +42,6 @@ print(ytrain)
 # In[5]:
 
 
-"""
-SECTION 2 : Build and Train Model
-
-Multilayer perceptron model, with one hidden layer.
-input layer : 4 neuron, represents the feature of Iris
-hidden layer : 3 neuron, activation using ReLU
-output layer : 3 neuron, represents the class of Iris
-
-optimizer = stochastic gradient descent with no batch-size
-loss function = categorical cross entropy
-epoch = 50
-"""
 
 
 # In[6]:
